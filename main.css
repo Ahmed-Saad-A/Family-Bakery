@@ -1,0 +1,359 @@
+body {
+  margin: 0;
+  background-color: #f8f8f8;
+}
+
+/* Clearfix */
+.clear-flex {
+  clear: both;
+}
+
+div.parent {
+  width: 90%;
+  margin: auto;
+}
+
+/* Home */
+nav.navbar {
+  color: white;
+  background-image: url("Bakery images/images/drew-coffman-1872.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+}
+
+nav.navbar::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+/* Container */
+div.block-nav {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  position: relative;
+  top: 0;
+}
+
+/* Logo */
+div.nav img {
+  height: 50px;
+  float: left;
+  margin-top: 35px;
+}
+
+/* Menu */
+nav.navbar div.nav ul.menu {
+  float: right;
+  list-style: none;
+  margin: 35px 0 0 0;
+  padding: 0;
+}
+
+nav.navbar div.nav ul.menu li {
+  float: left;
+  margin-left: 15px;
+  font-size: 18px;
+  font-family: "Alegreya";
+}
+
+/* Heading */
+nav.navbar div.home {
+  text-align: center;
+  margin-top: 50px;
+}
+
+nav.navbar div.home h1 {
+  font-size: 76px;
+  font-family: "Alegreya";
+  font-weight: 400;
+}
+
+nav.navbar div.home p {
+  font-size: 22px;
+  font-family: "Alegreya Sans";
+}
+
+/* Buttons */
+nav.navbar div.button {
+  margin-top: 20px;
+}
+
+nav.navbar div.button button {
+  padding: 10px 30px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+nav.navbar div.button button.left {
+  color: white;
+  font-family: "Alegreya Sans";
+  background-color: #8e7754;
+  border: none;
+}
+
+nav.navbar div.button button.right {
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+}
+
+/* st div who-we-are image style */
+div.who-we-are {
+  background-color: white;
+  padding: 50px 50px;
+  margin: auto;
+  overflow: hidden;
+}
+
+div.who-we-are .image {
+  width: 47%;
+  float: left;
+  padding: 0 15px;
+}
+
+.image img {
+  width: 80%;
+}
+
+/* st div who-we-are text style */
+div.who-we-are .text-section {
+  width: 47%;
+  float: right;
+  padding: 20px 15px;
+}
+
+h2 {
+  color: RGB(48, 48, 48);
+  font-family: "Alegreya";
+  font-size: 32px;
+  font-weight: 100;
+}
+.text {
+  width: auto;
+  color: RGB(104, 104, 104);
+  font-family: "Alegreya Sans";
+  font-size: 17px;
+}
+
+/* st div icons */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+div.who-we-are div.icons div.icons-colms {
+  width: 100%;
+}
+
+div.who-we-are div.icons div.icons-colms ul img {
+  width: 30px;
+  margin: 0 10px 15px 0;
+  vertical-align: middle;
+  border: 1px solid gray;
+  border-radius: 50%;
+  padding: 5px;
+}
+div.who-we-are div.icons div.icons-colms ul span {
+  display: inline-block;
+}
+
+/* en section who-we-are */
+
+/* start section our location */
+div.our-location {
+  padding: 50px 50px;
+  margin: auto;
+  overflow: hidden;
+}
+
+div.our-location div.text {
+  width: 47%;
+  float: left;
+  padding: 0 15px;
+}
+
+div.our-location div.image {
+  width: 47%;
+  float: right;
+  padding: 0 15px;
+}
+
+/* strat section Our Baking */
+div.our-baking {
+  background-color: white;
+  padding: 50px 50px;
+  margin: auto;
+  overflow: hidden;
+}
+div.our-baking .text p,
+div.our-baking .text h2 {
+  text-align: center;
+}
+div.card h3 {
+  color: RGB(48, 48, 48);
+  font-family: "Alegreya";
+  text-align: center;
+  font-weight: 100;
+}
+
+div.card p {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  color: RGB(104, 104, 104);
+  font-family: "Alegreya Sans";
+}
+
+div.cards .card {
+  width: 32%;
+  float: left;
+  padding-left: 15px;
+}
+
+div.cards .card img {
+  background-color: teal;
+  width: 100%;
+}
+
+/* strat section Contact imformation */
+div.contact-information {
+  padding: 50px 50px;
+  margin: auto;
+  overflow: hidden;
+}
+div.contact-information .contact {
+  width: 100%;
+}
+div.contact-information .contact .text {
+  width: 49%;
+  float: left;
+}
+
+div.contact-information .contact .contact-list img {
+  width: 30px;
+}
+
+div.contact-information div.contact-list img {
+  padding: 5px;
+  margin: 0 10px 10px 0;
+  background-color: #8e7754;
+  border: 1px solid gray;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.contact-information .contact .map {
+  width: 49%;
+  float: right;
+}
+
+/* footer */
+div.info {
+  background-color: #403d38;
+  padding: 50px 15px;
+}
+
+div.info h3 {
+  color: white;
+  font-family: "Alegreya";
+  font-weight: 100;
+}
+
+div.info .about-us p,
+div.info li {
+  color: #969696;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+div.info li::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin-top: 8px;
+}
+
+div.about-us li:last-child::after,
+div.special li:last-child::after,
+div.opening-hours li:last-child::after,
+div.contact-details li:last-child::after {
+  display: none;
+}
+
+div.info img {
+  width: 20px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+/* about us */
+div.about-us {
+  width: 24%;
+  float: left;
+  padding-left: 5px;
+}
+
+div.info p {
+  color: #403d38;
+}
+
+/* special */
+div.info div.special {
+  width: 24%;
+  float: left;
+  padding-right: 15px;
+}
+
+/* Opening Hours */
+div.info div.opening-hours {
+  width: 24%;
+  float: left;
+  padding-right: 15px;
+}
+
+/* Contact Details */
+div.info div.contact-details {
+  background-image: url("Bakery images/images/contact-details-map.png");
+  background-repeat: no-repeat;
+  width: 24%;
+  float: left;
+}
+
+/* Logo */
+footer div.bak-logo {
+  text-align: center;
+  color: #777;
+  background-color: #353330;
+  padding: 50px 0;
+}
+
+footer div.bak-logo div.logo img {
+  text-align: center;
+  width: 20%;
+}
+
+footer div.bak-logo div.social-icons img {
+  padding: 5px;
+  border-radius: 50%;
+  width: 35px;
+  margin-left: 10px;
+  background-color: #403d38;
+}
+
+footer .social-icons img {
+  width: 30px;
+  height: auto;
+  display: inline-block;
+  margin: 0 5px;
+}
