@@ -6,376 +6,334 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400;600&family=Alegreya+Sans:wght@300;400;500;600&display=swap"
       rel="stylesheet"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Family Bakery</title>
   </head>
   <body>
-    <!-- start code Home -->
-    <nav class="navbar">
-      <div class="block-nav">
-        <div class="nav">
-          <ul>
-            <li class="logo">
-              <img
-                src="Bakery images/images/bakery-light-1.png"
-                alt="Bakery Logo"
-              />
-            </li>
-            <li>
-              <ul class="menu">
-                <li>Home</li>
-                <li>About</li>
-                <li>Our Offer</li>
-                <li>Gallery</li>
-                <li>Blog</li>
-                <li>Contact</li>
-              </ul>
-            </li>
-            <div class="clear-flex"></div>
-          </ul>
+    <header class="hero" id="home">
+      <div class="hero__overlay" aria-hidden="true"></div>
+      <div class="container hero__content">
+        <div class="site-header">
+          <a class="brand" href="#home">
+            <img
+              src="Bakery images/images/bakery-light-1.png"
+              alt="Family Bakery"
+            />
+          </a>
+
+          <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+          <label
+            for="nav-toggle"
+            class="nav-toggle-label"
+            aria-label="Toggle navigation"
+          >
+            <span></span>
+          </label>
+
+          <nav class="site-nav" aria-label="Primary navigation">
+            <ul id="site-menu">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#offer">Our Offer</a></li>
+              <li><a href="#gallery">Gallery</a></li>
+              <li><a href="#blog">Blog</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
         </div>
-        <div class="home">
-          <p>Welcome to</p>
+
+        <div class="hero__text">
+          <p class="eyebrow">Welcome to</p>
           <h1>Family Bakery</h1>
           <p>
-            We're the biggest, best equipped and most advanced Bakery in the
+            We're the biggest, best equipped and most advanced bakery in the
             greater Los Angeles area.
           </p>
-        </div>
-        <div class="button">
-          <button class="left">Learn More</button>
-          <button class="right">Contact Us</button>
+          <div class="cta-group">
+            <a class="btn btn-primary" href="#about">Learn More</a>
+            <a class="btn btn-outline" href="#contact">Contact Us</a>
+          </div>
         </div>
       </div>
-    </nav>
+    </header>
 
-    <!-- start section Who we are -->
-    <div class="who-we-are">
-      <div class="parent">
-        <!-- div image -->
-        <div class="image">
-          <img
-            src="Bakery images/images/alexandru-stavrica.jpg"
-            alt="Bread Image"
-          />
-        </div>
-        <!-- end div image -->
-
-        <div class="text-section">
-          <!-- div text -->
-          <div class="text">
-            <h2>Who we are?</h2>
-            <p>
-              We have been operating for over 30 years and are Members of The
-              Federation <br />
-              of Master Builders. We work on projects big and small from small
-              residential <br />
-              extensions to full house. We are so happy with this theme.
-              Everyday it make our lives better.
-            </p>
-          </div>
-          <!-- end div text -->
-
-          <!-- section Icons -->
-          <div class="icons">
-            <div class="icons-colms">
-              <ul>
-                <li>
-                  <img
-                    src="Bakery images/images/Icons/leaf.png"
-                    alt=" leaf image"
-                  />
-                  <span class="icon-text text">We care about environment.</span>
-                </li>
-                <li>
-                  <img
-                    src="Bakery images/images/Icons/people.png"
-                    alt="people image"
-                  />
-                  <span class="icon-text text"
-                    >We are trusted by hundreds of clients.</span
-                  >
-                </li>
-                <li>
-                  <img
-                    src="Bakery images/images/Icons/heart.png"
-                    alt=" heart image"
-                  />
-                  <span class="icon-text text">Social media loves us!</span>
-                </li>
-                <li>
-                  <img
-                    src="Bakery images/images/Icons/check.png"
-                    alt=" check image"
-                  />
-                  <span class="icon-text text"
-                    >This list is super easy to create.</span
-                  >
-                </li>
-              </ul>
-            </div>
-          </div>
-          <!-- end section Icons -->
-        </div>
-        <div class="clear-flex"></div>
-      </div>
-    </div>
-
-    <!-- start section our location -->
-    <div class="our-location">
-      <div class="parent">
-        <div class="text-section">
-          <div class="text">
-            <h2>Our Location</h2>
-            <p>
-              We have been operating for over 30 years and are Members of The
-              Federation of Master Builders. We work on projects big and small
-              from small residential extensions to full house. We are so happy
-              with this theme. Everyday it make our lives better.
-            </p>
-            <p>
-              Story on projects big and small from small residential extensions
-              to full house. We are so happy with this theme. Everyday it make
-              our lives better.
-            </p>
-          </div>
-        </div>
-        <div class="image">
-          <img src="Bakery images/images/full-2.jpg" alt="" />
-        </div>
-      </div>
-    </div>
-
-    <!-- strat section Our Baking -->
-    <div class="our-baking">
-      <div class="parent">
-        <div class="text">
-          <h2>Our Baking</h2>
-          <p>
-            Learn more about them. We have worked truly hard to make them
-            perfect for every use.
-          </p>
-        </div>
-        <div class="cards">
-          <div class="card">
-            <img src="Bakery images/images/ben-garratt.jpg" alt="ben-garratt" />
-            <h3>Superior Breads</h3>
-            <p>
-              Proin interdum, ante ut sollicitudin commodo, tellus quam sagittis
-              libero, at semper mauris velit a velit. Phasellus commodo turpis
-              et lacinia posuere.
-            </p>
-          </div>
-          <div class="card">
-            <img src="Bakery images/images/stas-ovsky.jpg" alt="stas-ovsky" />
-            <h3>Superior Breads</h3>
-            <p>
-              Proin interdum, ante ut sollicitudin commodo, tellus quam sagittis
-              libero, at semper mauris velit a velit. Phasellus commodo turpis
-              et lacinia posuere.
-            </p>
-          </div>
-          <div class="card">
+    <main>
+      <section id="about" class="section about">
+        <div class="container split">
+          <figure class="media">
             <img
-              src="Bakery images/images/clem-onojeghuo.jpg"
-              alt="clem-onojeghuo"
+              src="Bakery images/images/alexandru-stavrica.jpg"
+              alt="Freshly baked bread"
             />
-            <h3>Superior Breads</h3>
+          </figure>
+          <div class="content">
+            <h2>Who we are</h2>
             <p>
-              Proin interdum, ante ut sollicitudin commodo, tellus quam sagittis
-              libero, at semper mauris velit a velit. Phasellus commodo turpis
-              et lacinia posuere.
+              We have been operating for over 30 years and are proud members of
+              the Federation of Master Bakers. From small residential gatherings
+              to large-scale events, our family-run team handles every project
+              with the same care and attention to detail.
             </p>
+            <p>
+              Every day we experiment, learn, and improve to keep delighting our
+              community with new favorites and timeless classics.
+            </p>
+            <ul class="icon-list">
+              <li>
+                <img src="Bakery images/images/Icons/leaf.png" alt="" />
+                <div>
+                  <h3>We care about the environment</h3>
+                  <p>Responsible sourcing and minimal waste in every kitchen.</p>
+                </div>
+              </li>
+              <li>
+                <img src="Bakery images/images/Icons/people.png" alt="" />
+                <div>
+                  <h3>Trusted by hundreds</h3>
+                  <p>Loyal clients rely on us for their most important events.</p>
+                </div>
+              </li>
+              <li>
+                <img src="Bakery images/images/Icons/heart.png" alt="" />
+                <div>
+                  <h3>Social media loves us</h3>
+                  <p>Thousands of glowing reviews and shared moments.</p>
+                </div>
+              </li>
+              <li>
+                <img src="Bakery images/images/Icons/check.png" alt="" />
+                <div>
+                  <h3>Always easy to work with</h3>
+                  <p>Simple ordering, transparent pricing, and speedy service.</p>
+                </div>
+              </li>
+            </ul>
           </div>
-          <div class="our-location"></div>
         </div>
-      </div>
-    </div>
+      </section>
 
-    <!-- strat section Contact information -->
-    <div class="contact-information">
-      <div class="parent">
-        <div class="contact">
-          <div class="text">
-            <h2>Contact Information</h2>
+      <section id="location" class="section location">
+        <div class="container split reverse">
+          <div class="content">
+            <h2>Our location</h2>
             <p>
-              I am text block. Click edit button to change this text. Lorem
-              ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
-              luctus nec ullamcorper mattis, pulvinar dapibus leo.z
+              Our flagship shop sits in the heart of Los Angeles and houses our
+              main production kitchen, tasting room, and coffee bar. Step inside
+              to experience warm hospitality and the smell of freshly baked
+              bread every hour of the day.
             </p>
-            <p>Our contact details:</p>
-            <div class="contact-list">
-              <ul>
-                <li>
-                  <img src="Bakery images/images/Icons/map.png" alt="map" />
-                  <span>Manchester St 123-78B, Random 713, UK</span>
-                </li>
-                <li>
-                  <img src="Bakery images/images/Icons/phone.png" alt="phone" />
-                  <span>+46 123 456 789</span>
-                </li>
-                <li>
-                  <img
-                    src="Bakery images/images/Icons/headphone.png"
-                    alt="headphone"
-                  />
-                  <span>+37 431 456 789</span>
-                </li>
-                <li>
-                  <img src="Bakery images/images/Icons/email.png" alt="email" />
-                  <span>hello@sitename.com</span>
-                </li>
-              </ul>
-            </div>
+            <p>
+              We also operate a mobile team to cater events across Southern
+              California, bringing the Family Bakery experience directly to your
+              guests.
+            </p>
           </div>
-          <div class="map">
+          <figure class="media">
+            <img src="Bakery images/images/full-2.jpg" alt="Family Bakery shop" />
+          </figure>
+        </div>
+      </section>
+
+      <section id="offer" class="section baking">
+        <div class="container">
+          <div class="section-heading">
+            <h2>Our baking</h2>
+            <p>
+              Learn more about our signature lines. Crafted with premium
+              ingredients and perfected through decades of testing.
+            </p>
+          </div>
+          <div class="card-grid">
+            <article class="card">
+              <img src="Bakery images/images/ben-garratt.jpg" alt="Superior breads" />
+              <h3>Superior Breads</h3>
+              <p>
+                Slow-fermented loaves with a classic crunchy crust and pillowy
+                center, baked fresh around the clock.
+              </p>
+            </article>
+            <article class="card">
+              <img src="Bakery images/images/stas-ovsky.jpg" alt="Perfect pastries" />
+              <h3>Perfect Pastries</h3>
+              <p>
+                Laminated doughs, buttery croissants, and flaky treats with
+                balanced sweetness for any occasion.
+              </p>
+            </article>
+            <article class="card">
+              <img
+                src="Bakery images/images/clem-onojeghuo.jpg"
+                alt="Seasonal cakes"
+              />
+              <h3>Seasonal Cakes</h3>
+              <p>
+                Custom cakes inspired by local produce, from bright citrus to
+                cozy spiced chocolate.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="gallery" class="section gallery">
+        <div class="container">
+          <div class="section-heading">
+            <h2>Gallery</h2>
+            <p>Snapshots from our kitchen, tastings, and catering spreads.</p>
+          </div>
+          <div class="gallery-grid">
+            <img src="Bakery images/images/drew-coffman-1872.jpg" alt="Counter" />
+            <img src="Bakery images/images/ben-garratt.jpg" alt="Bread slices" />
+            <img src="Bakery images/images/full-2.jpg" alt="Interior" />
+            <img src="Bakery images/images/stas-ovsky.jpg" alt="Pastries" />
+          </div>
+        </div>
+      </section>
+
+      <section id="blog" class="section blog">
+        <div class="container split">
+          <div class="content">
+            <h2>From our blog</h2>
+            <p>
+              Recipes, behind-the-scenes stories, and seasonal announcements.
+              Subscribe to stay in the loop.
+            </p>
+            <a class="btn btn-primary" href="#">Read the blog</a>
+          </div>
+          <div class="content secondary">
+            <h3>This week’s highlights</h3>
+            <ul class="check-list">
+              <li>How we mill grains in-house for consistent flavor</li>
+              <li>Chef’s guide to pairing sourdough with cheese</li>
+              <li>5 spring desserts you can recreate at home</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact">
+        <div class="container split">
+          <div class="content">
+            <h2>Contact information</h2>
+            <p>
+              We love hearing from new neighbors and longtime fans. Reach out
+              for catering inquiries, collaborations, or custom cake orders.
+            </p>
+            <p class="muted">Our contact details:</p>
+            <ul class="contact-list">
+              <li>
+                <img src="Bakery images/images/Icons/map.png" alt="" />
+                <div>
+                  <strong>Address</strong>
+                  <span>Manchester St 123-78B, Random 713, UK</span>
+                </div>
+              </li>
+              <li>
+                <img src="Bakery images/images/Icons/phone.png" alt="" />
+                <div>
+                  <strong>Phone</strong>
+                  <span>+46 123 456 789</span>
+                </div>
+              </li>
+              <li>
+                <img src="Bakery images/images/Icons/headphone.png" alt="" />
+                <div>
+                  <strong>Support</strong>
+                  <span>+37 431 456 789</span>
+                </div>
+              </li>
+              <li>
+                <img src="Bakery images/images/Icons/email.png" alt="" />
+                <div>
+                  <strong>Email</strong>
+                  <span>hello@sitename.com</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="map-wrapper">
             <iframe
+              title="Family Bakery on Google Maps"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3435.0845904884645!2d31.011344224633415!3d30.57515737466068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f7d6bf3bfef67d%3A0x240a3bffb88e4661!2z2YPZhNmK2Kkg2KfZhNi52YTZiNmFINis2KfZhdi52Kkg2KfZhNmF2YbZiNmB2YrYqQ!5e0!3m2!1sar!2seg!4v1742545192326!5m2!1sar!2seg"
-              width="600"
-              height="450"
-              style="border: 1"
-              allowfullscreen
               loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"
-            >
-            </iframe>
+            ></iframe>
           </div>
-          <div class="clear-flex"></div>
         </div>
-      </div>
-    </div>
+      </section>
+    </main>
 
-    <!-- Footer -->
-    <footer class="footer">
-      <div class="info">
-        <div class="parent">
-          <div class="about-us">
+    <footer class="site-footer">
+      <div class="footer-top">
+        <div class="container footer-grid">
+          <div>
             <h3>About us</h3>
             <p>
-              I am text block. Click edit button to change this text. Lorem
-              ipsum dolor sit amet, consectetur.
+              We craft wholesome breads and pastries with a focus on freshness,
+              quality, and community.
             </p>
             <p>
-              We are the champions! We are the most amazing theme of all time,
-              yeah.
+              Stop by for a coffee, pick up your weekly loaf, or plan your next
+              celebration with us.
             </p>
           </div>
-
-          <div class="special">
+          <div>
             <h3>Why we are special?</h3>
             <ul>
-              <li>
-                <img src="Bakery images/images/Icons/arrow.png" alt="Arrow" />
-                Our magical recipe.
-              </li>
-              <li>
-                <img src="Bakery images/images/Icons/arrow.png" alt="Arrow" />
-                We care about environment.
-              </li>
-              <li>
-                <img src="Bakery images/images/Icons/arrow.png" alt="Arrow" />
-                We are trusted by hundreds of clients.
-              </li>
-              <li>
-                <img src="Bakery images/images/Icons/arrow.png" alt="Arrow" />
-                Social media loves us!
-              </li>
-              <li>
-                <img src="Bakery images/images/Icons/arrow.png" alt="Arrow" />
-                This list is super easy to create.
-              </li>
+              <li>Our magical recipe.</li>
+              <li>We care about environment.</li>
+              <li>We are trusted by hundreds of clients.</li>
+              <li>Social media loves us.</li>
+              <li>This list is super easy to create.</li>
             </ul>
           </div>
-          <div class="opening-hours">
-            <h3>Opening Hours</h3>
+          <div>
+            <h3>Opening hours</h3>
             <ul>
-              <li>
-                <img src="Bakery images/images/Icons/arrow.png" alt="Arrow" />
-                Monday 10AM - 9PM
-              </li>
-              <li>
-                <img src="Bakery images/images/Icons/arrow.png" alt="Arrow" />
-                Tuesday 10AM - 9PM
-              </li>
-              <li>
-                <img src="Bakery images/images/Icons/arrow.png" alt="Arrow" />
-                Wednesday 10AM - 9PM
-              </li>
-              <li>
-                <img src="Bakery images/images/Icons/arrow.png" alt="Arrow" />
-                Thursday 10AM - 10PM
-              </li>
-              <li>
-                <img src="Bakery images/images/Icons/arrow.png" alt="Arrow" />
-                Friday 10AM - 10PM
-              </li>
-              <li>
-                <img src="Bakery images/images/Icons/arrow.png" alt="Arrow" />
-                Weekends 10AM - 11PM
-              </li>
+              <li>Monday – Thursday: 10AM - 9PM</li>
+              <li>Friday: 10AM - 10PM</li>
+              <li>Saturday: 10AM - 11PM</li>
+              <li>Sunday: 10AM - 11PM</li>
             </ul>
           </div>
-
-          <div class="contact-details">
-            <h3>Contact Details</h3>
+          <div class="footer-contact">
+            <h3>Contact details</h3>
             <ul>
-              <li>
-                <img
-                  src="Bakery images/images/Icons/location.png"
-                  alt="Location"
-                />
-                Manchester Road 123-78B, Silictown 7854MD, Great Country
-              </li>
-              <li>
-                <img
-                  src="Bakery images/images/Icons/phone-gray.png"
-                  alt="Phone"
-                />
-                +46 123 456 789
-              </li>
-              <li>
-                <img
-                  src="Bakery images/images/Icons/email-solid.png"
-                  alt="Email"
-                />
-                hello@sitename.com
-              </li>
-              <li>
-                <img src="Bakery images/images/Icons/earth.png" alt="Website" />
-                http://www.sitename.com
-              </li>
+              <li>Manchester Road 123-78B, Silictown 7854MD</li>
+              <li>+46 123 456 789</li>
+              <li>hello@sitename.com</li>
+              <li>http://www.sitename.com</li>
             </ul>
           </div>
         </div>
-        <div class="clear-flex"></div>
       </div>
 
-      <div class="bak-logo">
-        <div class="logo">
-          <img
-            src="Bakery images/images/bakery-light-1.png"
-            alt="Bakery Logo"
-          />
-        </div>
-        <div class="copyright">
-          <p>Copyright 2017. All rights reserved.</p>
-        </div>
-        <div class="social-icons">
-          <a href="#"
-            ><img src="Bakery images/images/Icons/facebook.png" alt="Facebook"
-          /></a>
-          <a href="#"
-            ><img src="Bakery images/images/Icons/google.png" alt="Google"
-          /></a>
-          <a href="#"
-            ><img src="Bakery images/images/Icons/linkedin.png" alt="LinkedIn"
-          /></a>
-          <a href="#"
-            ><img src="Bakery images/images/Icons/twitter.png" alt="Twitter"
-          /></a>
+      <div class="footer-bottom">
+        <div class="container footer-bottom__content">
+          <div class="logo">
+            <img
+              src="Bakery images/images/bakery-light-1.png"
+              alt="Family Bakery"
+            />
+          </div>
+          <p>© 2025 Family Bakery. All rights reserved.</p>
+          <div class="social-icons">
+            <a href="#" aria-label="Facebook">
+              <img src="Bakery images/images/Icons/facebook.png" alt="" />
+            </a>
+            <a href="#" aria-label="Google">
+              <img src="Bakery images/images/Icons/google.png" alt="" />
+            </a>
+            <a href="#" aria-label="LinkedIn">
+              <img src="Bakery images/images/Icons/linkedin.png" alt="" />
+            </a>
+            <a href="#" aria-label="Twitter">
+              <img src="Bakery images/images/Icons/twitter.png" alt="" />
+            </a>
+          </div>
         </div>
       </div>
     </footer>
